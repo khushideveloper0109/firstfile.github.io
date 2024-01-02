@@ -1,0 +1,99 @@
+.mane {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(./../../Assets/img/background.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.mane_logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar {
+    margin: auto;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    height: 15%;
+    justify-content: space-between;
+}
+
+.button {
+    color: white;
+    border: 1px solid white;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.bubbles img {
+    width: 50px;
+    animation: bubbla 7s linear infinite;
+}
+
+.bubbles {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -80px;
+}
+
+@keyframes bubbla {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(0) {
+    animation-delay: 2s;
+}
+
+.bubbles img:nth-child(1) {
+    animation-delay: 1s;
+}
+
+.bubbles img:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.bubbles img:nth-child(3) {
+    animation-delay: 3s;
+}
+
+.bubbles img:nth-child(4) {
+    animation-delay: 2s;
+}
+
+.bubbles img:nth-child(5) {
+    animation-delay: 5s;
+}
+
+.bubbles img:nth-child(6) {
+    animation-delay: 2s;
+}
+
+.bubbles img:nth-child(7) {
+    animation-delay: 3s;
+}

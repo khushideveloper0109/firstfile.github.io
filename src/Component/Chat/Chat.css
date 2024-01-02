@@ -1,0 +1,84 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.conteaner {
+    border: 4px solid white;
+    border-radius: 7px;
+    height: 60vh;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: auto;
+    overflow-y: auto;
+    /* margin-bottom: 30px; */
+    padding-bottom: 41px;
+}
+
+.massges {
+    border: 2px solid white;
+    width: 40%;
+    color: #000;
+    border-radius: 6px;
+    margin: 8px 14px;
+    padding: 5px;
+    background-color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    bottom: 100px;
+}
+
+.left {
+
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.send {
+    display: block;
+    margin: auto;
+    background-color: white;
+    height: 50px;
+    width: 50%;
+    margin-top: -50px;
+}
+
+
+
+.send-container {
+    display: flex;
+}
+
+#massges-text {
+    width: 100%;
+    height: 31px;
+    margin-top: 7px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    display: block;
+    padding-left: 10px;
+}
+
+.shaer.icon {
+    width: 40px;
+    height: 40px;
+}
+.submit {
+border: none;
+    background: none;
+   
+    cursor: pointer;
+}
+input:focus{
+    box-shadow: none;
+    outline: none;
+}
